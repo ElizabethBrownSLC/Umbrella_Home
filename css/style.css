@@ -17,7 +17,6 @@ p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.1em;
     font-weight: 300;
-    line-height: 1.7em;
     color: #E1E3DE;
 }
 
@@ -131,14 +130,3 @@ a:focus {
     color: #435B5D;
     margin-top: 50px;
     align-self: baseline;
-}
-@media only screen and (max-width: 600px) {
-  div {
-    display: column;
-    width: 100%;
-    height: auto;
-}
-.header {
-    display: block;
-    grid-template-columns: 1fr;
-}
