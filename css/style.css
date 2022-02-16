@@ -44,8 +44,6 @@ a:focus {
     display: grid;
     background-color: #87A199;
     height: 500px;
-    grid-template-rows: ;
-    grid-template-columns: 1fr,1fr,1fr;
 }
 
 #sidebar {
@@ -130,3 +128,4 @@ a:focus {
     color: #435B5D;
     margin-top: 50px;
     align-self: baseline;
+}
