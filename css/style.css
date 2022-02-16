@@ -42,8 +42,11 @@ a:focus {
     border: none;
 }
 .header {
+    display: grid;
     background-color: #87A199;
     height: 500px;
+    grid-template-rows: ;
+    grid-template-columns: 1fr,1fr,1fr;
 }
 
 #sidebar {
@@ -128,4 +131,14 @@ a:focus {
     color: #435B5D;
     margin-top: 50px;
     align-self: baseline;
+}
+@media only screen and (max-width: 600px) {
+  div {
+    display: column;
+    width: 100%;
+    height: auto;
+}
+.header {
+    display: block;
+    grid-template-columns: 1fr;
 }
