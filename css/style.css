@@ -41,22 +41,16 @@ a:focus {
     outline: none !important;
     border: none;
 }
-
-/* ---------------------------------------------------
-    SIDEBAR STYLE
------------------------------------------------------ */
-
-.wrapper {
-    display: flex;
-    width: 100%;
-    align-items: stretch;
+.header {
+    background-color: #87A199;
+    height: 500px;
 }
 
 #sidebar {
     min-width: 140px;
     max-width: 140px;
-    min-height: 795px;
-    max-height: 795px;
+    min-height: 720px;
+    max-height: 720px;
     background: #627F82;
     color: #E1E3DE;
     text-align: center;
@@ -67,8 +61,9 @@ a:focus {
 }
 
 #sidebar ul img {
-    height: 5%;
-    margin-top: 25px;
+    margin-top: 30px;
+    height: 45px;
+
 }
 
 #sidebar ul p {
@@ -84,4 +79,53 @@ a:focus {
 
 #sidebar ul li a:hover {
     color: #EDBE7C;
+}
+#homeImg {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#logo {
+    margin-left: 50px;
+    margin-top: 125px;
+    margin-bottom: 50px;
+}
+.cta p {
+    margin-left: 125px;
+}
+#createAccount {
+    background-color: #B8583F;
+    width: 200px;
+    margin-left: 125px;
+    margin-top: 50px;
+    color: #E1E3DE;
+}
+#login {
+    background-color:#435B5D;
+    width: 200px;
+    margin-left: 125px;
+    margin-top: 10px;
+    color: #E1E3DE;
+}
+.headline {
+    margin-top: -50px;
+    height: 50px;
+    text-align: center;
+    background-color: #E1E3DE;
+}
+.headlineTwo {
+    color: #435B5D;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 250px;
+    height: 400px;
+    text-align: center;
+    
+}
+.headline img {
+    margin-top: 50px;
+}
+.headlineTwo p {
+    color: #435B5D;
+    margin-top: 50px;
+    align-self: baseline;
 }
