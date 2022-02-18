@@ -1,11 +1,3 @@
-/*
-    DEMO STYLE
-*/
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
-body {
-    font-family: 'Poppins', sans-serif;
-    background: #fafafa;
-}
 .nav a {
     font-family: verdana;
     color: #EDBE7C;
@@ -118,8 +110,7 @@ a:focus {
     margin-right: 100px;
     margin-top: 250px;
     height: 400px;
-    text-align: center;
-    
+    text-align: center;   
 }
 .headline img {
     margin-top: 50px;
